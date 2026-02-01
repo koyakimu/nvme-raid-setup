@@ -5,7 +5,7 @@
 # Sets up NVMe instance store volumes as a single RAID-0 volume on Amazon EC2.
 # Compatible with Deep Learning AMI (DLAMI) and other Ubuntu/Amazon Linux AMIs.
 #
-# Based on AWS EKS AMI's setup-local-disks script:
+# Based on Amazon EKS AMI's setup-local-disks script:
 # https://github.com/awslabs/amazon-eks-ami/blob/main/templates/shared/runtime/bin/setup-local-disks
 #
 # Usage:

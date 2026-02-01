@@ -7,7 +7,7 @@ Amazon EC2のNVMeインスタンスストアを単一のRAID-0ボリュームと
 ## 特徴
 
 - 🚀 **シンプル** - 1コマンドで全NVMeデバイスをRAID-0に構成
-- 🔒 **信頼性** - AWS EKS AMIの[setup-local-disks](https://github.com/awslabs/amazon-eks-ami/blob/main/templates/shared/runtime/bin/setup-local-disks)を参考にした設計
+- 🔒 **信頼性** - Amazon EKS AMIの[setup-local-disks](https://github.com/awslabs/amazon-eks-ami/blob/main/templates/shared/runtime/bin/setup-local-disks)を参考にした設計
 - 🔄 **冪等性** - 複数回実行しても安全
 - 📦 **自動依存解決** - 必要なパッケージ(mdadm, xfsprogs)を自動インストール
 
@@ -90,7 +90,7 @@ chmod +x setup-nvme-raid.sh
 
 ## 公式スクリプトとの比較
 
-このスクリプトはAWS EKS AMIの`setup-local-disks`を参考にしていますが、以下の点が異なります：
+このスクリプトはAmazon EKS AMIの`setup-local-disks`を参考にしていますが、以下の点が異なります：
 
 | 機能 | setup-local-disks | このスクリプト |
 |------|-------------------|---------------|
@@ -108,7 +108,7 @@ MIT License - 詳細は[LICENSE](LICENSE)を参照
 
 ## 参考リンク
 
-- [AWS EKS AMI - setup-local-disks](https://github.com/awslabs/amazon-eks-ami/blob/main/templates/shared/runtime/bin/setup-local-disks)
+- [Amazon EKS AMI - setup-local-disks](https://github.com/awslabs/amazon-eks-ami/blob/main/templates/shared/runtime/bin/setup-local-disks)
 - [Amazon EC2 Instance Store](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html)
 - [Amazon EBS and RAID Configuration](https://docs.aws.amazon.com/ebs/latest/userguide/raid-config.html)
 

@@ -9,7 +9,7 @@ Amazon EC2のNVMeインスタンスストアを単一のRAID-0ボリュームと
 ### 背景
 
 - AWS Deep Learning AMI (DLAMI) にはNVMe RAIDセットアップの公式スクリプトがない
-- AWS EKS AMIの`setup-local-disks`はEKS専用でkubelet/containerdのbind mount処理が含まれる
+- Amazon EKS AMIの`setup-local-disks`はEKS専用でkubelet/containerdのbind mount処理が含まれる
 - このスクリプトは`setup-local-disks`の設計を参考に、汎用的なDLAMI向けに作成
 
 ### 参考にした公式スクリプト
