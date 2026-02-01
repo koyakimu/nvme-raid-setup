@@ -1,8 +1,8 @@
-# NVMe RAID Setup for AWS EC2
+# NVMe RAID Setup for Amazon EC2
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-AWS EC2のNVMeインスタンスストアを単一のRAID-0ボリュームとしてセットアップするスクリプトです。Deep Learning AMI (DLAMI) やその他のUbuntu/Amazon Linux AMIで動作します。
+Amazon EC2のNVMeインスタンスストアを単一のRAID-0ボリュームとしてセットアップするスクリプトです。Deep Learning AMI (DLAMI) やその他のUbuntu/Amazon Linux AMIで動作します。
 
 ## 特徴
 

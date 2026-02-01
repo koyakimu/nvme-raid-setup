@@ -2,7 +2,7 @@
 #
 # setup-nvme-raid.sh
 #
-# Sets up NVMe instance store volumes as a single RAID-0 volume on AWS EC2.
+# Sets up NVMe instance store volumes as a single RAID-0 volume on Amazon EC2.
 # Compatible with Deep Learning AMI (DLAMI) and other Ubuntu/Amazon Linux AMIs.
 #
 # Based on AWS EKS AMI's setup-local-disks script:
@@ -60,7 +60,7 @@ print_help() {
     cat << EOF
 ${SCRIPT_NAME} v${VERSION}
 
-Sets up NVMe instance store volumes as a single RAID-0 volume on AWS EC2.
+Sets up NVMe instance store volumes as a single RAID-0 volume on Amazon EC2.
 
 Usage:
     sudo ${SCRIPT_NAME} [OPTIONS]

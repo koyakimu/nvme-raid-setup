@@ -4,7 +4,7 @@
 
 ## プロジェクト概要
 
-AWS EC2のNVMeインスタンスストアを単一のRAID-0ボリュームとしてセットアップするBashスクリプト。
+Amazon EC2のNVMeインスタンスストアを単一のRAID-0ボリュームとしてセットアップするBashスクリプト。
 
 ### 背景
 
@@ -86,7 +86,7 @@ mkfs.xfs -l su=8b "${device}"
 
 ## 関連リソース
 
-- [AWS EC2 Instance Store Volumes](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html)
+- [Amazon EC2 Instance Store Volumes](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html)
 - [mdadm man page](https://linux.die.net/man/8/mdadm)
 - [XFS mkfs options](https://man7.org/linux/man-pages/man8/mkfs.xfs.8.html)
 
